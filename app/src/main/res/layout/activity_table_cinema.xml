@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ts"
         android:layout_width="306dp"
         android:layout_height="60dp"
         android:text="Tarung Sarung"
@@ -32,7 +32,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/mp"
         android:layout_width="312dp"
         android:layout_height="60dp"
         android:background="@drawable/btn"

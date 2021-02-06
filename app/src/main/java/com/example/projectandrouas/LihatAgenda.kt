@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 
 open class LihatAgenda : AppCompatActivity() {
 
-    protected var cursor: Cursor? = null
     var dbHelper: DataHelper? = null
     var ton2: Button? = null
     var text1: TextView? = null
@@ -29,13 +28,19 @@ open class LihatAgenda : AppCompatActivity() {
         text5 = findViewById<View>(R.id.textView5) as TextView
 
         val db = dbHelper!!.readableDatabase
-        cursor = db.rawQuery(
-            "SELECT * FROM agenda WHERE nama_agenda = '" +
-                    intent.getStringExtra("nama_agenda") + "'", null
-        )
+//        cursor = db.rawQuery(
+//            "SELECT * FROM agenda WHERE nama_agenda = '" +
+//                    intent.getStringExtra("nama_agenda") + "'", null
+//        )
 
 //        cursor =
 //            db.rawQuery("SELECT * FROM agenda WHERE ${intent.getStringExtra("nama_agenda")} ", null)
+
+        val cursor =
+            db.rawQuery(
+                "SELECT * FROM agenda WHERE nama_agenda = '${intent.getStringExtra("nama_agenda")}'",
+                null
+            )
 
         cursor.moveToFirst()
         if (cursor.getCount() > 0) {

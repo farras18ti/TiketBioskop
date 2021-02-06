@@ -82,7 +82,7 @@
         android:layout_alignLeft="@+id/TextView04"
         android:layout_alignBottom="@+id/textView4"
         android:text="Tempat"
-        ndroid:textStyle="bold"/>
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/TextView04"

@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/Milea"
         android:layout_width="296dp"
         android:layout_height="60dp"
         android:background="@drawable/btn"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteY="127dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/TTM"
         android:layout_width="286dp"
         android:layout_height="60dp"
         android:background="@drawable/btn"
