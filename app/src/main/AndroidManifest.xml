@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pembelian_TiketActivity"></activity>
+        <activity android:name=".TableCinepolis"></activity>
+        <activity android:name=".TableBoxMovie" />
+        <activity android:name=".TableCgv" />
+        <activity android:name=".TableCinema" />
+        <activity android:name=".DaftarBioskop" />
+        <activity android:name=".Pembelian_TiketActivity" />
         <activity android:name=".Pembelian_TiletActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".RegistrasiActivity" />
